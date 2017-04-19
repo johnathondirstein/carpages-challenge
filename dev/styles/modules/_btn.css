@@ -1,0 +1,26 @@
+.btn {
+	text-decoration: none;
+	color: $white;
+	padding: 0.75rem;
+	font-size: 0.75rem;
+
+	&--red {
+		background-color: $red;
+
+			&:hover {
+				background-color: $darkRed;
+		}
+	}
+
+	&--blue {
+		background-color: $blue;
+	}
+
+	&--extra-p {
+		padding: 0.4rem 1.2rem;
+	}
+
+	&--thin {
+		font-weight: 300;
+	}
+}

@@ -1,0 +1,21 @@
+.site-header {
+	background-color: $white;
+	border-bottom: 3px solid #009600;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 20px;
+
+	@mixin atSmall {
+		padding: 10px;
+	}
+	
+	&__logo {
+		max-width: 25%;
+
+		@mixin atSmall {
+			margin: 0;
+			max-width: 12%;
+		}
+	}
+}

@@ -1,5 +1,19 @@
 @import 'base/_setup';
+@import 'base/_variables';
+@import 'base/_mixins';
+@import 'modules/_vehicle-box';
+@import 'modules/_btn';
+@import 'modules/_site-header';
+@import 'modules/_primary-nav';
 
 body {
-	background-color: papayawhip;
+	font-family: 'Montserrat', sans-serif;
+	background-color: $background;
+	font-size: 0.75rem;
+	min-height: 100vh;
+}
+
+.icon-m-left {
+	margin-left: 10px;
+	vertical-align: middle;
 }

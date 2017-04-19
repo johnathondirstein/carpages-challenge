@@ -1,5 +1,3 @@
-'use strict'
-
 const gulp = require('gulp');
 const postcss = require('gulp-postcss');
 const autoprefixer = require('gulp-autoprefixer');

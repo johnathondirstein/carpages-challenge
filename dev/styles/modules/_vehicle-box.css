@@ -1,0 +1,42 @@
+.vehicle-box {
+	background-color: #fff;
+	max-width: 520px;
+	border: 15px solid $borderGrey;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	margin: 10px auto;
+
+	@mixin atSmall {
+		flex-direction: row;
+	}
+
+	&__title {
+		color: $fontGrey;
+
+		@mixin atSmall {
+			max-width: 70px;
+		}
+	}
+
+	&__description {
+		color: $fontGrey;
+		margin: 12px 0 30px 0;
+	}
+
+	&__price {
+		color: $red;
+	}
+
+	&__information {
+		font-size: .9rem;
+		padding: 10px 0 25px 0 ;
+		text-align: center;
+
+		@mixin atSmall {
+			margin-left: 10px;
+			font-size: 0.625rem;
+			text-align: left;
+		}
+	}
+}

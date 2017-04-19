@@ -1,0 +1,26 @@
+.primary-nav {
+	display: none;
+
+	@mixin atLarge {
+		display: flex;
+		list-style: none;
+		text-transform: uppercase;
+	}
+
+	&__links {
+		text-decoration: none;
+		padding: 10px;
+		font-weight: 500;
+		font-size: .7rem;
+
+		@mixin atSmall {
+			font-size: .9rem;
+		}
+	}
+
+	&__divider {
+		border-right: 2px solid $fontGrey;
+		margin-right: 12px;
+		
+	}
+}

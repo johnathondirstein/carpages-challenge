@@ -1,0 +1,23 @@
+.mobile-nav {
+	border: 1px solid $fontGrey;
+	position: absolute;
+	
+
+	&__link {
+		display: flex;
+		align-items: center;
+		text-decoration: none;
+		padding: 0.2rem 1rem;
+		color: $fontGrey;
+		font-weight: 500;
+
+		&:hover {
+			background-color: $background;
+		}
+	}
+
+	@mixin atSmall {
+		display: none;
+
+	} 
+}

@@ -5,6 +5,7 @@
 @import 'modules/_btn';
 @import 'modules/_site-header';
 @import 'modules/_primary-nav';
+@import 'modules/_mobile-nav';
 
 body {
 	font-family: 'Montserrat', sans-serif;
@@ -16,4 +17,14 @@ body {
 .icon-m-left {
 	margin-left: 10px;
 	vertical-align: middle;
+}
+
+.ion-search {
+	font-size: 1.3rem;
+	padding: 10px;
+}
+
+.ion-navicon-round {
+	font-size: 1rem;
+	margin-right: 5px;
 }

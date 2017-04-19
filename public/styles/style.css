@@ -22,7 +22,7 @@ article,aside,details,figcaption,figure,footer,header,hgroup,nav,section,summary
 	padding: 10px;
 }@media(min-width: 490px){.site-header{padding:10px;}}.site-header__logo {max-width: 25%;margin: 0 auto;}@media(min-width: 490px){.site-header__logo{margin:0;max-width:12%;}}.primary-nav {
 	display: none;
-}@media(min-width: 900px){.primary-nav{align-items:center;display:flex;list-style:none;text-transform:uppercase;}}.primary-nav__links {font-weight: 500;font-size: .7rem;padding: 10px;text-decoration: none;}@media(min-width: 490px){.primary-nav__links{font-size:.9rem;}}.mobile-nav {
+}@media(min-width: 900px){.primary-nav{align-items:center;display:flex;list-style:none;text-transform:uppercase;}}.primary-nav__links {color: #5f6062;font-weight: 500;font-size: .7rem;padding: 10px;text-decoration: none;}@media(min-width: 490px){.primary-nav__links{font-size:.9rem;}}.mobile-nav {
 	border: 1px solid #5f6062;
 	position: absolute; 
 }.mobile-nav__link {display: flex;align-items: center;text-decoration: none;padding: 0.2rem 1rem;color: #5f6062;font-weight: 500;}.mobile-nav__link:hover {background-color: #dedede;}@media(min-width: 490px){.mobile-nav{display:none;}}body {

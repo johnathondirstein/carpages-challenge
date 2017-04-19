@@ -12,6 +12,7 @@
 	
 	&__logo {
 		max-width: 25%;
+		margin: 0 auto;
 
 		@mixin atSmall {
 			margin: 0;
